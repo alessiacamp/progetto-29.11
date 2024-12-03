@@ -1,0 +1,35 @@
+.film-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  .film-image {
+    height: 815px;
+  }
+}
+
+@media (min-width: 768px) {
+  .film-image {
+    height: 530px;
+  }
+}
+
+@media (min-width: 992px) {
+  .film-image {
+    height: 335px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .film-image {
+    height: 415px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .film-image {
+    height: 510px;
+  }
+}
